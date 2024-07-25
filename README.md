@@ -2,10 +2,10 @@
 
 👀 I’m interested in full-stack web development, with a passion for crafting intuitive user interfaces and exploring the latest advancements in the field.
 
-🌱 I’m currently expanding my expertise in the T3 Stack (Next.js, TypeScript, tRPC, Prisma, Tailwind CSS) to build robust, type-safe, and performant web applications.
+🌱 I’m currently expanding my expertise in the T3 Stack (Next.js, TypeScript, tRPC, Drizzle, Tailwind CSS) to build robust, type-safe, and performant web applications.
 
 📫 How to reach me: 
-<br/>My Portfolio: abdok.vercel.app
+<br/>My Portfolio: https://abdokhaled.vercel.app/
 <br/>Email: abdo.k.m24_6@hotmail.com
 <br/>LinkedIn: https://www.linkedin.com/in/abdo12k/
 
