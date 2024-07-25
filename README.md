@@ -4,11 +4,6 @@
 
 🌱 I’m currently expanding my expertise in the T3 Stack (Next.js, TypeScript, tRPC, Drizzle, Tailwind CSS) to build robust, type-safe, and performant web applications.
 
-📫 How to reach me: 
-<br/>My Portfolio: https://abdokhaled.vercel.app/
-<br/>Email: abdo.k.m24_6@hotmail.com
-<br/>LinkedIn: https://www.linkedin.com/in/abdo12k/
-
 ---
 ### 💼 Technical Skills
 **Front-End:** React, Next.js, TypeScript, JavaScript, HTML, CSS, Responsive Design <br/>
