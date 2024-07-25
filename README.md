@@ -15,6 +15,12 @@ You can email me at abdo.k.m24_6@hotmail.com or connect with me on LinkedIn at h
 **Additional Skills:** Git, GitHub, SEO, Scrum, Strong problem-solving skills, Strong attention to detail <br/>
 
 ---
+### 📈 GitHub Stats
+
+<picture>
+  <img src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=light" />
+</picture>
+
 <picture>
 <img src="https://abdo-readme.vercel.app/api/wakatime?username=abdo12k" />
 </picture>
