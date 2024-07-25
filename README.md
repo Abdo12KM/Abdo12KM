@@ -1,16 +1,34 @@
-## Hi there 👋
+👋 Hi, I’m @Abdo12KM
 
-<!--
-**Abdo12KM/Abdo12KM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👀 I’m interested in full-stack web development, with a passion for crafting intuitive user interfaces and exploring the latest advancements in the field.
 
-Here are some ideas to get you started:
+🌱 I’m currently expanding my expertise in the T3 Stack (Next.js, TypeScript, tRPC, Prisma, Tailwind CSS) to build robust, type-safe, and performant web applications.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📫 How to reach me: 
+You can email me at abdo.k.m24_6@hotmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/abdo12k/
+
+---
+### 💼 Technical Skills
+**Front-End:** React, Next.js, TypeScript, JavaScript, HTML, CSS, Responsive Design <br/>
+**Back-End:** Node.js, Express, Prisma, PostgreSQL <br/>
+**Tools & Frameworks:** Tailwind CSS, Docker <br/>
+**Additional Skills:** Git, GitHub, SEO, Scrum, Strong problem-solving skills, Strong attention to detail <br/>
+
+---
+### 📈 GitHub Stats
+
+<picture>
+  <source
+    srcset="https://abdo-readme.app/api?username=abdo12k&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://abdo-readme.app/api?username=abdo12k&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://abdo-readme.app/api?username=abdo12k&show_icons=true" />
+</picture>
+
+<picture>
+<img src="https://abdo-readme.app/api/wakatime?username=abdo12k" />
+</picture>
