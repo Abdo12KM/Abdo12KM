@@ -17,10 +17,6 @@ You can email me at abdo.k.m24_6@hotmail.com or connect with me on LinkedIn at h
 ---
 ### 📈 GitHub Stats
 
-<picture>
-  <img src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=light" />
-</picture>
+  <img height=200 align="center" src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=light" />
+  <img height=200 align="center" src="https://abdo-readme.vercel.app/api/wakatime?username=abdo12k" />
 
-<picture>
-<img src="https://abdo-readme.vercel.app/api/wakatime?username=abdo12k" />
-</picture>
