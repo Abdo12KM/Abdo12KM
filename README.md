@@ -5,12 +5,14 @@
 🌱 I’m currently expanding my expertise in the T3 Stack (Next.js, TypeScript, tRPC, Prisma, Tailwind CSS) to build robust, type-safe, and performant web applications.
 
 📫 How to reach me: 
-You can email me at abdo.k.m24_6@hotmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/abdo12k/
+<br/>My Portfolio: abdok.vercel.app
+<br/>Email: abdo.k.m24_6@hotmail.com
+<br/>LinkedIn: https://www.linkedin.com/in/abdo12k/
 
 ---
 ### 💼 Technical Skills
 **Front-End:** React, Next.js, TypeScript, JavaScript, HTML, CSS, Responsive Design <br/>
-**Back-End:** Node.js, Express, Prisma, PostgreSQL <br/>
+**Back-End:** Node.js, Drizzle, PostgreSQL <br/>
 **Tools & Frameworks:** Tailwind CSS, Docker <br/>
 **Additional Skills:** Git, GitHub, SEO, Scrum, Strong problem-solving skills, Strong attention to detail <br/>
 
