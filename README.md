@@ -86,8 +86,8 @@ After spending a few years in Medical School, I've discovered It didn't fit my p
 ## 📊 Development Activity
 
 <div align="center">
-  <img height="180em" src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=light&hide_border=true&count_private=true">
-  <img height="180em" src="https://abdo-readme.vercel.app/api/top-langs/?username=abdo12km&layout=compact&theme=light&hide_border=true">
+  <img height="180em" src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=dark&hide_border=true&count_private=true">
+  <img height="180em" src="https://abdo-readme.vercel.app/api/top-langs/?username=abdo12km&layout=compact&theme=dark&hide_border=true">
 </div>
 
 ---
