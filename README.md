@@ -12,7 +12,7 @@
 
 ## 🚀 Professional Overview
 
-After beginning my academic journey in Medical Studies, I transitioned into coding—bringing strong analytical skills, adaptability, and a passion for building robust, high-performance web apps. I love crafting type-safe, secure, and production-grade applications with modern technologies like **Next.js (App Router)**, **TypeScript**, **PostgreSQL**, and many cutting-edge tools.
+After spending a few years in Medical School, I've discovered It didn't fit my persona, so I switched my career to CS, bringing strong analytical skills, adaptability, and a passion for building robust, high-performance web apps. I love crafting type-safe, secure, and production-grade applications with modern technologies like **Next.js (App Router)**, **TypeScript**, **PostgreSQL**, and many cutting-edge tools.
 
 ---
 
@@ -53,6 +53,7 @@ After beginning my academic journey in Medical Studies, I transitioned into codi
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+[![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 
