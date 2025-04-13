@@ -19,8 +19,9 @@ After spending a few years in Medical School, I've discovered It didn't fit my p
 ## 🚀 Featured Projects
 
 ### 🚗 Automart – Land Rover Dealership Management System
-- **Status:** Production-Ready (Internal Tool)  
-- **Live:** [Landing Page](https://automart.vercel.app)  
+- **Status:** Production-Ready (Other Incomplete Features Are Added Incrementally)
+- **Live:** [The Landing Page](https://abdok.vercel.app)
+- **Demo Video:** [Management System](https://drive.google.com/file/d/1MvmSjRxwgpY7-ySpULprTgdBNDLqoFgd/view?usp=sharing)
 - **Overview:**  
   Developing an end-to-end internal web application over **600+ hours** and counting, that translates complex business needs into an intuitive management system.  
 - **Key Features:**
