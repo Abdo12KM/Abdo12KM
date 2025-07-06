@@ -94,6 +94,15 @@ After spending a few years in Medical School, I've discovered It didn't fit my p
 </div>
 
 <!--START_SECTION:waka-->
+
+```txt
+TypeScript   25 hrs 19 mins  ████████████████████░░░░░   80.27 %
+Markdown     3 hrs 46 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.95 %
+TeX          1 hr 19 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.18 %
+JSON         38 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.04 %
+Other        14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.79 %
+```
+
 <!--END_SECTION:waka-->
 
 ---
