@@ -6,7 +6,7 @@
 [![Download CV](https://img.shields.io/badge/CV-4CAF50?style=for-the-badge&logo=googleDrive&logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
 
 **💻 Full-Stack Developer** | **🎓 Senior CS Student (3.83/4.0 GPA)** | **⚕️ Former Med Student**  
-📍 New Cairo, Egypt | 🔍 Seeking Full-Time Roles
+📍 New Cairo, Egypt
 
 ---
 
