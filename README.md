@@ -96,15 +96,15 @@ After spending a few years in Medical School, I've discovered It didn't fit my p
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 October 2025 - To: 20 October 2025
+From: 14 October 2025 - To: 21 October 2025
 
-Total Time: 6 hrs 3 mins
+Total Time: 4 hrs 5 mins
 
-TypeScript        1 hr 41 mins    ███████░░░░░░░░░░░░░░░░░░   27.62 %
-Java              1 hr 38 mins    ██████▓░░░░░░░░░░░░░░░░░░   26.74 %
-Markdown          1 hr 3 mins     ████▒░░░░░░░░░░░░░░░░░░░░   17.22 %
-JSON              34 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.43 %
-Docker            31 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.53 %
+TypeScript   1 hr 41 mins    ██████████▒░░░░░░░░░░░░░░   40.67 %
+Java         57 mins         █████▓░░░░░░░░░░░░░░░░░░░   23.22 %
+JSON         34 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.89 %
+Markdown     26 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.61 %
+CSS          14 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.83 %
 ```
 
 <!--END_SECTION:waka-->
