@@ -96,11 +96,12 @@ After spending a few years in Medical School, I've discovered It didn't fit my p
 <!--START_SECTION:waka-->
 
 ```txt
-From: 04 November 2025 - To: 11 November 2025
+From: 05 November 2025 - To: 12 November 2025
 
-Total Time: 8 mins
+Total Time: 10 mins
 
-Java   8 mins          █████████████████████████   100.00 %
+Java       8 mins          █████████████████████▓░░░   87.20 %
+Markdown   1 min           ███▒░░░░░░░░░░░░░░░░░░░░░   12.80 %
 ```
 
 <!--END_SECTION:waka-->
