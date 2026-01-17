@@ -2,7 +2,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdo12k@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
 [![Download CV](https://img.shields.io/badge/CV-4CAF50?style=for-the-badge&logo=googleDrive&logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
 
 **💻 Full-Stack Developer** | **🎓 Senior CS Student (3.83/4.0 GPA)** | **⚕️ Former Med Student**  
@@ -46,6 +46,20 @@ High-performing CS Senior and Hackathon Winner specializing in modern Full-Stack
   - 🔐 **Admin CMS:** Session-based auth with Redis+DB hybrid caching, and gallery CRUD
 - **Tech Stack:**  
   Next.js 16, React 19, TypeScript, PostgreSQL (Neon), Google Gemini, Vertex AI Embeddings, Google Veo 3.1, React Three Fiber, Tailwind CSS v4, Framer Motion, Upstash Redis
+
+### ✍️ AI Blog Generator – Technical Writing Platform
+
+- **Live:** [abdok.dev/blog](https://abdok.dev/blog)
+- **Highlights:**
+  - 🤖 **Multi-Agent AI Pipeline:** Writer, Reviewer, and Refiner agents using AI SDK 6 ToolLoop for dynamic file reading and diagram creation
+  - 🗺️ **Context-First Architecture:** Pre-loads repository file tree ("The Map") and user-selected files before generation for full codebase awareness
+  - 🔍 **Drift Detection (Experimental):** Stores file SHAs at generation time, compares against live GitHub state to alert when referenced code changes
+  - 📝 **Rich Editing:** Monaco split-pane editor with live Markdown preview, diff viewing, and auto-save drafts
+  - 🔄 **Version Control:** Auto-pruning at 50 versions with protected change types and version pinning
+  - 🎨 **Diagram Modes:** AI images (Gemini), Mermaid.js syntax, or hybrid selection with tokenization pipeline
+  - ⚡ **Background Processing:** Inngest-powered async generation with Redis-backed progress tracking
+- **Tech Stack:**  
+  Next.js 16, AI SDK 6, Google Gemini, Inngest, Monaco Editor, Mermaid.js, GitHub API, Upstash Redis, Drizzle ORM
 
 ---
 
@@ -139,6 +153,6 @@ JavaScript   14 mins         ▒░░░░░░░░░░░░░░░░
 
 I'm actively seeking new opportunities and collaborations. Reach out to discuss innovative projects or potential roles!
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdo12k@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
