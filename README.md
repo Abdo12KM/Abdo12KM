@@ -134,15 +134,15 @@ High-performing CS Senior and Hackathon Winner specializing in modern Full-Stack
 <!--START_SECTION:waka-->
 
 ```txt
-From: 08 January 2026 - To: 15 January 2026
+From: 09 January 2026 - To: 16 January 2026
 
-Total Time: 32 hrs 47 mins
+Total Time: 35 hrs 9 mins
 
-TypeScript   23 hrs 56 mins  ██████████████████▒░░░░░░   72.96 %
-Markdown     6 hrs 40 mins   █████░░░░░░░░░░░░░░░░░░░░   20.34 %
-JSON         48 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.46 %
-C            14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 %
-JavaScript   14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.73 %
+TypeScript   24 hrs 7 mins   █████████████████░░░░░░░░   68.57 %
+Markdown     8 hrs 29 mins   ██████░░░░░░░░░░░░░░░░░░░   24.13 %
+JSON         54 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.57 %
+Text         30 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.44 %
+C            14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.71 %
 ```
 
 <!--END_SECTION:waka-->
