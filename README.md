@@ -73,7 +73,7 @@ High-performing CS Senior and Hackathon Winner specializing in modern Full-Stack
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
 **Languages:**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -98,20 +98,18 @@ High-performing CS Senior and Hackathon Winner specializing in modern Full-Stack
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat&logo=drizzle&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![UploadThing](https://img.shields.io/badge/UploadThing-EB4F27?style=flat&logo=uploadthing&logoColor=white)
-
 ![Inngest](https://img.shields.io/badge/Inngest-060C1A?style=flat&logo=inngest&logoColor=white)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=reactquery&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-1A365D?style=flat&logo=zod&logoColor=white)
 ![next-intl](https://img.shields.io/badge/next--intl-000000?style=flat)
+![UploadThing](https://img.shields.io/badge/UploadThing-EB4F27?style=flat&logo=uploadthing&logoColor=white)
+![Resend](https://img.shields.io/badge/Resend-000000?style=flat&logo=resend&logoColor=white)
 
-**AI, ML & Integrations:**
+**AI & ML:**
 ![Vercel AI SDK 6](https://img.shields.io/badge/Vercel_AI_SDK_6-000000?style=flat&logo=vercel&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Deepseek](https://img.shields.io/badge/Deepseek-0066FF?style=flat)
-![Resend](https://img.shields.io/badge/Resend-000000?style=flat&logo=resend&logoColor=white)
-![UploadThing](https://img.shields.io/badge/UploadThing-EB4F27?style=flat&logo=uploadthing&logoColor=white)
 
 ---
 
