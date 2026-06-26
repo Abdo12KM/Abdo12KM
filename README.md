@@ -1,137 +1,182 @@
 # 👋 Hello, I'm Abdelrahman Khaled (@Abdo12KM)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
-[![Download CV](https://img.shields.io/badge/CV-4CAF50?style=for-the-badge&logo=googleDrive&logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
+[![Download CV](https://img.shields.io/badge/CV-4CAF50?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
 
-**💻 Full-Stack Developer** | **🎓 Senior CS Student (3.83/4.0 GPA)** | **⚕️ Former Med Student**  
+**💻 Full-Stack & Applied AI Engineer** | **🎓 Computer Science Graduate (3.84/4.0 CGPA)** | **⚕️ Former Medical Student**  
 📍 New Cairo, Egypt
 
 ---
 
 ## 🚀 Professional Overview
 
-High-performing CS Senior and Hackathon Winner specializing in modern Full-Stack architecture (Next.js 16, TypeScript, SQL). Proven track record of building secure, enterprise-grade systems featuring custom permission engines, AI tool-calling integrations, and fault-tolerant cache layers. Transitioned from medical studies with a strong foundation in diagnostic problem-solving.
+I build full-stack TypeScript and applied-AI systems end to end—from product architecture, databases, and authorization to background workflows, reliability, testing, and deployment.
+
+Before transitioning to Computer Science, I studied medicine for four years at Kasr Al Ainy. That background still shapes how I approach engineering: investigate symptoms, isolate root causes, test assumptions, and avoid treating only surface-level problems.
+
+My work spans secure authorization systems, fault-tolerant caching, AI tool-calling workflows, repository intelligence, compiler optimization research, semantic search, and interactive 3D experiences.
 
 ---
 
 ## 🛠️ Featured Projects
 
-### 🚗 Automart – Enterprise Land Rover Dealership Management System
+### 🚗 Automart — Automotive Dealership Management System
 
-- **Status:** Production-Ready (Complete SDLC, 1000+ Hours)
-- **Live:** [automart.vercel.app](https://automart.vercel.app)
+- **Status:** Active development; core infrastructure and major operational modules implemented
+- **Project Site:** [automart.vercel.app](https://automart.vercel.app)
+- **Repository:** Private
 - **Highlights:**
-  - 🛡️ **Granular Authorization:** Hybrid authorization engine with a code-defined 56-permission catalog synced to the database, supporting per-member overrides and a server-authoritative resolver—replacing legacy role-threshold RBAC.
-  - 🤖 **Sandboxed AI Assistant:** Tool-based streaming AI assistant using Vercel AI SDK 6 and Google Gemini. Executes queries through tightly-scoped server tools with field-level permission redaction. Features an advanced dynamic SQL report builder.
-  - ⚡ **Fault-Tolerant Cache Architecture:** Upstash Redis + Drizzle ORM caching backed by 250ms racing timeouts, a 60s circuit breaker, and cross-instance PostgreSQL coordination for automated Redis-down failovers.
-  - 🔐 **Compliance & Sessions:** Custom JWT authentication with HttpOnly cookies, PBKDF2/AES-GCM encryption, full system audit logging, and a real-time active session termination dashboard with device tracking.
-  - 👥 **Staff Management:** Full CRUD with an AI-enhanced warning system, OTP password resets, and a session management dashboard with per-device tracking.
-  - 📦 **Inventory & Reg Systems:** Complete parts management with ledger-based adjustments, stock transfers, reorder alerts, and Gemini-powered translation. CRM-style registry integrated with a local Land Rover VIN decoder and NHTSA fallbacks.
-  - 📢 **Communications Hub:** Message board with PDF export, announcements system with AI translation and version rollback.
-  - 🌍 **Public Portal & i18n:** Full EN/AR localization with dynamic RTL/LTR layout handling (next-intl). Public landing page optimized with coordinate binning, route caching, and rate limits to minimize Google API costs.
+  - 🛡️ **Hybrid Authorization:** 56 code-defined permissions synced to the database with role defaults, per-member allow/deny overrides, contextual server-side resolution, and audit logging.
+  - 🤖 **Streaming AI Assistant:** Sandboxed server tools, structured source references, and permission-aware SQL reporting with field-level redaction.
+  - ⚡ **Fault-Tolerant Cache Architecture:** Upstash Redis with 250 ms racing timeouts, a 60-second circuit breaker, and cross-instance PostgreSQL coordination for Redis failover.
+  - 🔐 **Security & Sessions:** HttpOnly JWT sessions, PBKDF2/AES-GCM encryption, device-session management, account recovery, and active-session termination.
+  - 📦 **Business Operations:** CRM, vehicle, and inventory modules with ledger-based stock adjustments, reorder alerts, a local Land Rover VIN decoder with NHTSA fallback, media workflows, and bilingual AI-assisted content.
+  - 🧪 **Quality:** 403 passing Vitest tests across 87 test files with strict TypeScript checks.
 - **Tech Stack:**  
-  Next.js 16 (App Router), React 19, TypeScript, PostgreSQL (Neon), Drizzle ORM, Upstash Redis, Tailwind CSS v4, TanStack Query, Vercel AI SDK 6, Vitest (403 tests)
+  Next.js 16, React 19, TypeScript, PostgreSQL, Drizzle ORM, Upstash Redis, Tailwind CSS v4, TanStack Query, Vercel AI SDK 6, Google Gemini, Vitest
+
+---
+
+### ⚡ Mitos — AI Code Flow Tracing Platform
+
+- **Status:** Functional prototype in active development
+- **Repository:** Private
+- **Highlights:**
+  - 🧭 **Interactive Execution Traces:** Converts natural-language questions about GitHub repositories into commit-pinned traces with synchronized Monaco code views, Mermaid diagrams, narrative explanations, and timeline navigation.
+  - 🧠 **Two-Phase AI Pipeline:** Tool-based repository exploration followed by structured trace synthesis, backed by symbol indexing, deterministic verification, rule-based quality scoring, and conditional self-correction.
+  - 🔄 **Durable Orchestration:** Inngest workflows with attempt-scoped idempotency, transactional result persistence, Redis worker locks, and SSE status streaming with polling fallback.
+  - 🔐 **Security:** Trace-scoped access controls and AES-256-GCM encryption of GitHub OAuth tokens.
+  - 🗂️ **Repository Intelligence:** Commit-pinned file access, import-map analysis, symbol lookup, behavioral evidence extraction, and archived trace files for durable public sharing.
+- **Tech Stack:**  
+  Next.js 16, TypeScript, ElysiaJS, Better Auth, PostgreSQL, Drizzle ORM, Inngest, Upstash Redis, Monaco Editor, Mermaid.js, Vercel AI SDK, Gemini, DeepSeek
+
+---
+
+### 🧠 AutoCompile — LLM-Based LLVM Optimization Pass-Sequence Prediction
+
+- **Type:** Graduation Research Project, 2026
+- **Highlights:**
+  - 🧪 **Research Pipeline:** Co-developed a five-stage workflow covering bounded-search label generation, exact-IR deduplication, stratified dataset splitting, LoRA fine-tuning, and LLVM-based evaluation over 3,000 IR programs.
+  - 🧬 **Model Evaluation:** Evaluated Qwen2.5-Coder 3B/7B/14B, Meta LLM Compiler 7B, GRPO reinforcement learning, and win-focused conditioning.
+  - 📈 **Results:** Compiler-selected best-of-40 sampling reached **+4.08% guarded OverOz** versus a **+3.92% bounded-search reference** on the held-out test set.
+  - 🔍 **Key Finding:** Greedy one-shot inference reached only **+1.15%**, revealing persistent template collapse despite scaling, compiler-specific pretraining, reinforcement learning, and conditioning.
+  - ✅ **Methodological Controls:** Response-only SFT, strict protocol parsing, instruction-count guards, held-out evaluation, and zero cross-split exact-IR fingerprint overlap.
+- **Tech Stack:**  
+  Python, LLVM 19, PyTorch, Hugging Face Transformers, Unsloth, TRL, vLLM, LoRA, GRPO, Alive2
+
+---
 
 ### 📸 AI Photography Gallery
 
 - **Live:** [abdok.dev/photography](https://abdok.dev/photography)
 - **Highlights:**
-  - 🤖 **AI Photo Analysis:** Automatic tagging, caption generation & content enrichment using Google Gemini 3 Flash.
-  - 🔍 **Hybrid Search:** Semantic vector search (Vertex AI embeddings) + Gemini 2.5 Flash Lite re-ranking for intelligent retrieval.
-  - 🎬 **Living Portfolio:** Static photos transformed into 8-second loopable cinemagraphs using Google Veo 3.1, streamed from Cloudinary.
-  - 🌐 **Immersive 3D Gallery:** React Three Fiber/Three.js cylindrical layout with mouse-controlled camera navigation.
-  - 🌟 **Daily Photo Spotlight:** 3-tier priority system with AI-generated themes & cron orchestration.
-  - 💖 **Engagement Tracking:** Anonymous love system with browser fingerprinting & rate limiting.
-  - 🔐 **Admin CMS:** Session-based auth with Redis+DB hybrid caching and full gallery CRUD.
+  - 🤖 **AI Photo Analysis:** Automatic tagging, caption generation, metadata enhancement, and content enrichment with Google Gemini.
+  - 🔍 **Hybrid Discovery:** Vertex AI embeddings, PostgreSQL full-text search, and Gemini reranking.
+  - 🎬 **Living Portfolio:** Static photos transformed into loopable cinemagraphs using Google Veo 3.1 and delivered through Cloudinary.
+  - 🌐 **Immersive 3D Gallery:** React Three Fiber cylindrical layouts with concurrency-limited texture preloading, GPU cache warming, and video playback.
+  - 🌟 **Daily Photo Spotlight:** Timezone-aware orchestration with fair rotation, AI-generated themes, override cascades, and Redis distributed locking.
+  - 💖 **Engagement & CMS:** Rate-limited anonymous engagement tracking, secure administration, upload workflows, metadata editing, and visibility controls.
 - **Tech Stack:**  
-  Next.js 16, React 19, TypeScript, PostgreSQL (Neon), Google Gemini, Vertex AI Embeddings, Google Veo 3.1, React Three Fiber, Tailwind CSS v4, Framer Motion, Upstash Redis
+  Next.js 16, React 19, TypeScript, PostgreSQL, Drizzle ORM, Google Gemini, Vertex AI Embeddings, Google Veo 3.1, React Three Fiber, Three.js, Cloudinary, Inngest, Upstash Redis
 
-### ✍️ AI Blog Generator – Technical Writing Platform
+---
+
+### ✍️ AI Technical Publishing Platform
 
 - **Live:** [abdok.dev/blog](https://abdok.dev/blog)
 - **Highlights:**
-  - 🤖 **Multi-Agent AI Pipeline:** Writer, Reviewer, and Refiner agents using AI SDK 6 ToolLoop for dynamic file reading and diagram creation.
-  - 🗺️ **Context-First Architecture:** Pre-loads repository file tree ("The Map") and user-selected files before generation for full codebase awareness.
-  - 🔍 **Drift Detection (Experimental):** Stores file SHAs at generation time, compares against live GitHub state to alert when referenced code changes.
-  - 🎨 **Diagram Modes:** AI-generated images (Gemini), Mermaid.js syntax, or hybrid selection — with a full tokenization pipeline for context management.
-  - 📝 **Rich Editing:** Monaco split-pane editor with live Markdown preview, diff viewing, and auto-save drafts.
-  - 🔄 **Version Control:** Auto-pruning at 50 versions with protected change types and version pinning.
-  - ⚡ **Background Processing:** Inngest-powered async generation with Redis-backed progress tracking.
+  - 🤖 **AI Writing Workflows:** Writer, Reviewer, Refiner, and Prompt Refiner agents with repository-aware file access and structured output.
+  - 🗺️ **Context-First Architecture:** Preloads repository structure and selected files before generation for stronger codebase grounding.
+  - 🔍 **Drift Detection:** Stores file SHAs, compares them against live GitHub state, surfaces commit history, and identifies modified, deleted, or moved references.
+  - 🎨 **Diagram Workflows:** AI-image, Mermaid, and hybrid modes with diagram-preserving tokenization during refinement.
+  - 📝 **Rich Editing:** Monaco split-pane editing, live Markdown preview, diff views, autosave, and recoverable drafts.
+  - 🔄 **Version History:** Protected checkpoints, version pinning, and automatic pruning.
+  - ⚡ **Background Processing:** Inngest-powered generation with Redis-backed progress tracking and atomic database writes.
 - **Tech Stack:**  
-  Next.js 16, AI SDK 6, Google Gemini, Inngest, Monaco Editor, Mermaid.js, GitHub API, Upstash Redis, Drizzle ORM
+  Next.js 16, TypeScript, Vercel AI SDK 6, Google Gemini, Inngest, Monaco Editor, Mermaid.js, GitHub API, Upstash Redis, PostgreSQL, Drizzle ORM
 
 ---
 
 ## 🏆 Activities & Awards
 
-- 🥈 **2nd Place** @ SolveTHE17 Hackathon (400+ participants) - AI literacy app ([Nour Al Maarifa](https://nour-alma3refa.vercel.app))
-- 🥉 **3rd Place (Back-to-Back)** @ RoboCup@Home AAST (2026, 2025)
-- 🏅 **Finalist** @ Google Developers Groups AI Finance Hackathon (Top 5/100 teams)
-- 🧠 **35th Place** @ Egyptian Collegiate Programming Contest (ECPC)
+- 🥈 **2nd Place / 400+ Participants** — SolveTHE17 Hackathon  
+  Co-developed [Nour Al Maarifa](https://nour-alma3refa.vercel.app), an AI-powered application promoting Arabic literacy in Egypt.
+- 🥉 **Back-to-Back 3rd Place Finishes** — RoboCup@Home AAST, 2025 and 2026
+- 🏅 **5th Place / 100 Teams** — Google Developer Groups AI Finance Hackathon
+- 🧠 **35th Place / 183 Teams** — Egyptian Collegiate Programming Contest (ECPC)
 
 ---
 
 ## ⚙️ Tech Stack
 
-**Languages:**
+### Languages
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C#](https://custom-icon-badges.demolab.com/badge/C%23-239120.svg?logo=cshrp&logoColor=white)
 
-**Frontend:**
-![Next.js 16](https://img.shields.io/badge/Next%2Ejs_16-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
-![TailwindCSS v4](https://img.shields.io/badge/TailwindCSS_v4-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white)
+### Frontend
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)
 ![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-000000?style=flat&logo=threedotjs&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three%2Ejs-000000?style=flat&logo=threedotjs&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=reactquery&logoColor=white)
 ![HeroUI](https://img.shields.io/badge/HeroUI-000000?style=flat&logo=heroui&logoColor=white)
-![Shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat&logo=shadcnui&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat&logo=recharts&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat&logo=shadcnui&logoColor=white)
 
-**Backend, DB & Core Infrastructure:**
-![Node.js](https://img.shields.io/badge/Node%2Ejs-339933?style=flat&logo=nodedotjs&logoColor=white)
+### Backend, Data & Infrastructure
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![ElysiaJS](https://img.shields.io/badge/ElysiaJS-7C3AED?style=flat&logo=bun&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat&logo=drizzle&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![Inngest](https://img.shields.io/badge/Inngest-060C1A?style=flat&logo=inngest&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=reactquery&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-1A365D?style=flat&logo=zod&logoColor=white)
-![next-intl](https://img.shields.io/badge/next--intl-000000?style=flat)
-![UploadThing](https://img.shields.io/badge/UploadThing-EB4F27?style=flat&logo=uploadthing&logoColor=white)
-![Resend](https://img.shields.io/badge/Resend-000000?style=flat&logo=resend&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-**AI & ML:**
-![Vercel AI SDK 6](https://img.shields.io/badge/Vercel_AI_SDK_6-000000?style=flat&logo=vercel&logoColor=white)
+### AI, ML & Developer Tools
+
+![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat&logo=vercel&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Deepseek](https://img.shields.io/badge/Deepseek-0066FF?style=flat)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=flat&logo=llvm&logoColor=white)
+![Monaco Editor](https://img.shields.io/badge/Monaco_Editor-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Mermaid.js](https://img.shields.io/badge/Mermaid.js-FF3670?style=flat&logo=mermaid&logoColor=white)
+
+### Testing & Quality
+
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-1A365D?style=flat&logo=zod&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ---
 
 ## 📊 Development Activity
 
 <div align="center">
-  <img height="180em" src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=dark&hide_border=true&count_private=true">
-  <img height="180em" src="https://abdo-readme.vercel.app/api/top-langs/?username=abdo12km&layout=compact&theme=dark&hide_border=true">
+  <img height="180em" src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Abdelrahman's GitHub statistics">
+  <img height="180em" src="https://abdo-readme.vercel.app/api/top-langs/?username=abdo12km&layout=compact&theme=dark&hide_border=true" alt="Most used languages">
 </div>
 
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 June 2026 - To: 24 June 2026
-
-Total Time: 9 hrs 15 mins
-
-TypeScript   3 hrs 34 mins         ████████▓░░░░░░░░░░░░░░░░   34.02 %
-Markdown     2 hrs 29 mins         ██████░░░░░░░░░░░░░░░░░░░   23.65 %
-HTML         2 hrs 5 mins          █████░░░░░░░░░░░░░░░░░░░░   19.92 %
-Other        1 hr 14 mins          ███░░░░░░░░░░░░░░░░░░░░░░   11.84 %
-Text         37 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.99 %
+WakaTime statistics are updated automatically.
 ```
 
 <!--END_SECTION:waka-->
@@ -140,8 +185,8 @@ Text         37 mins               █▒░░░░░░░░░░░░░
 
 ## 📫 Let's Connect!
 
-I am actively seeking new opportunities and collaborations. Reach out to discuss innovative engineering or potential roles!
+I am interested in full-stack, backend, product-engineering, and applied-AI opportunities where I can own complex systems, solve ambiguous technical problems, and contribute beyond a narrowly defined layer.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
