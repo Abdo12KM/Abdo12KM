@@ -177,15 +177,15 @@ My work spans secure authorization systems, fault-tolerant caching, AI tool-call
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 June 2026 - To: 25 June 2026
+From: 20 June 2026 - To: 27 June 2026
 
-Total Time: 13 hrs 24 mins
+Total Time: 16 hrs 16 mins
 
-TypeScript   5 hrs 26 mins         █████████▒░░░░░░░░░░░░░░░   37.00 %
-Markdown     3 hrs 31 mins         ██████░░░░░░░░░░░░░░░░░░░   24.02 %
-HTML         2 hrs 5 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.24 %
-Other        1 hr 17 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   08.78 %
-TeX          50 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.74 %
+TypeScript   6 hrs 40 mins         █████████▒░░░░░░░░░░░░░░░   37.70 %
+Markdown     4 hrs 38 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.21 %
+HTML         2 hrs 5 mins          ███░░░░░░░░░░░░░░░░░░░░░░   11.82 %
+JSON         1 hr 30 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.54 %
+Other        1 hr 25 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 %
 ```
 
 <!--END_SECTION:waka-->
