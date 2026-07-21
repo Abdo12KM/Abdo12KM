@@ -214,15 +214,15 @@ Today, I work across product architecture, authorization, databases, durable job
 <!--START_SECTION:waka-->
 
 ```txt
-From: 12 July 2026 - To: 19 July 2026
+From: 13 July 2026 - To: 20 July 2026
 
-Total Time: 64 hrs 8 mins
+Total Time: 55 hrs 55 mins
 
-TypeScript   47 hrs 56 mins        ██████████████████▓░░░░░░   74.19 %
-Markdown     10 hrs 17 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.93 %
-CSS          2 hrs 54 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.50 %
-Text         1 hr 19 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.06 %
-Bash         39 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.01 %
+TypeScript   41 hrs 41 mins        ██████████████████▒░░░░░░   73.94 %
+Markdown     9 hrs 16 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.45 %
+CSS          2 hrs 25 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 %
+Text         1 hr 13 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.17 %
+JavaScript   28 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.83 %
 ```
 
 <!--END_SECTION:waka-->
