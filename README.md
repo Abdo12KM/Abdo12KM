@@ -4,17 +4,17 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A0f172a%2C100%3A2563eb&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=f8fafc&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=cbd5e1">
   <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3Adbeafe%2C100%3A93c5fd&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=0f172a&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=334155">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3Adbeafe%2C100%3A93c5fd&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=0f172a&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=334155" alt="Abdelrahman Khaled — Full-stack systems, applied AI, and developer tools" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3Adbeafe%2C100%3A93c5fd&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=0f172a&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=334155" alt="Abdelrahman Khaled, Full-stack systems, applied AI, and developer tools" width="100%">
 </picture>
 
 ### Production systems that explain themselves.
 
 **Full-stack engineering** · **Applied AI** · **Developer tooling** · **Research**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-abdok.dev-111111?style=for-the-badge&amp;logo=vercel&amp;logoColor=white)](https://abdok.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://linkedin.com/in/abdo12k)
-[![Email](https://img.shields.io/badge/Email-contact%40abdok.dev-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:contact@abdok.dev)
-[![Resume](https://img.shields.io/badge/Resume-View-2E7D32?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
+[![Portfolio](https://img.shields.io/badge/Portfolio-abdok.dev-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
+[![Email](https://img.shields.io/badge/Email-contact%40abdok.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
+[![Resume](https://img.shields.io/badge/Resume-View-2E7D32?style=for-the-badge&logo=readthedocs&logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
 
 <sub>B.Sc. Computer Science · 3.84/4.0 CGPA · New Cairo, Egypt</sub>
 
@@ -28,7 +28,7 @@
 
 Before Computer Science, I studied medicine for four years at Kasr Al Ainy. The domain changed; the method did not: inspect the evidence, isolate the cause, test the hypothesis, and fix the underlying system rather than its most visible symptom.
 
-Today, I design and ship systems across authorization, databases, durable jobs, AI tool calling, evaluation, testing, and deployment. I care about interfaces that make complex behavior understandable—not merely functional.
+Today, I design and ship systems across authorization, databases, durable jobs, AI tool calling, evaluation, testing, and deployment. I care about interfaces that make complex behavior understandable, not merely functional.
 
 > **Operating principle:** schema → product → evidence → production
 
@@ -44,19 +44,19 @@ Today, I design and ship systems across authorization, databases, durable jobs, 
 
 ## Proof in numbers
 
-| Evidence | Result |
-| --- | ---: |
-| [Automart authorization model](https://abdok.dev/projects/automart) | **65 granular permissions** |
-| [Automart full-stack test suite](https://abdok.dev/projects/automart) | **662 tests across 168 files** |
-| [Mitos AI-system test suite](https://abdok.dev/projects/mitos) | **288 tests across 66 files** |
-| [AutoCompile optimization result](https://abdok.dev/projects/autocompile) | **+4.08% guarded OverOz** |
-| [Photography hybrid discovery](https://abdok.dev/projects/photography) | **170+ indexed photographs** |
-| Academic foundation | **3.84/4.0 CGPA** |
+| Evidence                                                                  |                         Result |
+| ------------------------------------------------------------------------- | -----------------------------: |
+| [Automart authorization model](https://abdok.dev/projects/automart)       |    **65 granular permissions** |
+| [Automart full-stack test suite](https://abdok.dev/projects/automart)     | **662 tests across 168 files** |
+| [Mitos AI-system test suite](https://abdok.dev/projects/mitos)            |  **288 tests across 66 files** |
+| [AutoCompile optimization result](https://abdok.dev/projects/autocompile) |      **+4.08% guarded OverOz** |
+| [Photography hybrid discovery](https://abdok.dev/projects/photography)    |   **170+ indexed photographs** |
+| Academic foundation                                                       |              **3.84/4.0 CGPA** |
 
 ## Selected work
 
 <details open>
-<summary><strong>🚗 Automart</strong> — dealership operations platform · public case study</summary>
+<summary><strong>🚗 Automart</strong>: dealership operations platform · public case study</summary>
 
 <br>
 
@@ -76,7 +76,7 @@ A full-stack operations platform spanning staff, customers, vehicles, inventory,
 </details>
 
 <details>
-<summary><strong>⚡ Mitos</strong> — repository questions → verified execution traces · live</summary>
+<summary><strong>⚡ Mitos</strong>: repository questions → verified execution traces · live</summary>
 
 <br>
 
@@ -96,7 +96,7 @@ An AI developer tool that converts natural-language questions about GitHub repos
 </details>
 
 <details>
-<summary><strong>🦇 Ask Abdo</strong> — evidence-backed portfolio assistant · live</summary>
+<summary><strong>🦇 Ask Abdo</strong>: evidence-backed portfolio assistant · live</summary>
 
 <br>
 
@@ -116,7 +116,7 @@ A correctness-first assistant embedded in abdok.dev, designed around a strict tr
 </details>
 
 <details>
-<summary><strong>🧠 AutoCompile</strong> — LLVM optimization-pass prediction · research and demo</summary>
+<summary><strong>🧠 AutoCompile</strong>: LLVM optimization-pass prediction · research and demo</summary>
 
 <br>
 
@@ -136,7 +136,7 @@ Graduation research on learning LLVM optimization-pass sequences from IR, target
 </details>
 
 <details>
-<summary><strong>📸 Photography</strong> — searchable, cinematic media archive · live</summary>
+<summary><strong>📸 Photography</strong>: searchable, cinematic media archive · live</summary>
 
 <br>
 
@@ -156,7 +156,7 @@ A full-stack photography system for publishing, discovering, curating, and anima
 </details>
 
 <details>
-<summary><strong>✍️ AI Publishing</strong> — repository-aware technical writing · case study</summary>
+<summary><strong>✍️ AI Publishing</strong>: repository-aware technical writing · case study</summary>
 
 <br>
 
@@ -207,14 +207,14 @@ The stack changes by problem; these are the tools I repeatedly use to ship and v
   │
 2022  Transitioned to Computer Science
   │
-2023  ECPC — 35th of 183 teams
+2023  ECPC: 35th of 183 teams
   │
-2025  SolveTHE17 — 2nd of 400+ participants
-  │     GDG AI Finance Hackathon — 5th of 100 teams
-  │     RoboCup@Home — 3rd place
+2025  SolveTHE17: 2nd of 400+ participants
+  │     GDG AI Finance Hackathon: 5th of 100 teams
+  │     RoboCup@Home: 3rd place
   │
-2026  B.Sc. Computer Science — 3.84/4.0 CGPA
-       RoboCup@Home — back-to-back 3rd place
+2026  B.Sc. Computer Science: 3.84/4.0 CGPA
+       RoboCup@Home: back-to-back 3rd place
        AutoCompile research completed
 ```
 
@@ -270,10 +270,10 @@ Other        38 mins               ▒░░░░░░░░░░░░░░
 
 <div align="center">
 
-### Let’s build something difficult — and make it understandable.
+### Let’s build something difficult and make it understandable.
 
-[![Explore my work](https://img.shields.io/badge/Explore_my_work-abdok.dev-111111?style=for-the-badge&amp;logo=vercel&amp;logoColor=white)](https://abdok.dev/projects)
-[![Start a conversation](https://img.shields.io/badge/Start_a_conversation-Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:contact@abdok.dev)
+[![Explore my work](https://img.shields.io/badge/Explore_my_work-abdok.dev-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev/projects)
+[![Start a conversation](https://img.shields.io/badge/Start_a_conversation-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
 
 <sub>Open to full-stack, backend, product-engineering, and applied-AI opportunities.</sub>
 
