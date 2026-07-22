@@ -42,7 +42,7 @@ Today, I work across product architecture, authorization, databases, durable job
 | ---------------------------- | ---------------------------------------: | ----------------------------------------------------- |
 | Authorization depth          |              **65 granular permissions** | [Automart](https://abdok.dev/projects/automart)       |
 | Full-stack test suite        | **662 passing Vitest tests / 168 files** | [Automart](https://abdok.dev/projects/automart)       |
-| AI-system test suite         |  **263 passing Vitest tests / 61 files** | [Mitos](https://abdok.dev/projects/mitos)             |
+| AI-system test suite         |  **288 passing Vitest tests / 66 files** | [Mitos](https://abdok.dev/projects/mitos)             |
 | Compiler optimization result |                **+4.08% guarded OverOz** | [AutoCompile](https://abdok.dev/projects/autocompile) |
 | Hybrid media discovery       |             **170+ indexed photographs** | [Photography](https://abdok.dev/projects/photography) |
 | Academic foundation          |                        **3.84/4.0 CGPA** | B.Sc. Computer Science                                |
@@ -90,8 +90,8 @@ Today, I work across product architecture, authorization, databases, durable job
 - Uses bounded repository exploration, evidence extraction, trace planning, and structured drafting, falling back to a symbol graph when direct exploration is insufficient.
 - Verifies file paths, line ranges, snippets, graph connections, prompt coverage, and semantic quality before finalizing a trace.
 - Runs through durable Inngest stages with cancellation, concurrency control, retry-safe execution guards, artifact offloading, optional Redis locks, and SSE progress.
-- Protects repositories with trace-scoped access, encrypted OAuth tokens, archived source access, binary rejection, and Mermaid/SVG sanitization.
-- Backed by **263 passing Vitest tests across 61 files**, plus Playwright coverage for the landing page and workspace demo.
+- Protects repositories with installation-scoped GitHub App access, trace-scoped public access, encrypted identity/control-plane tokens, archived source access, binary rejection, and Mermaid/SVG sanitization.
+- Backed by **288 passing Vitest tests across 66 files**, plus Playwright coverage for the landing page and workspace demo.
 
 `Next.js 16` `ElysiaJS` `Better Auth` `PostgreSQL` `Inngest` `Monaco` `Mermaid` `Gemini` `DeepSeek`
 
@@ -214,15 +214,15 @@ Today, I work across product architecture, authorization, databases, durable job
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 July 2026 - To: 20 July 2026
+From: 09 July 2026 - To: 16 July 2026
 
-Total Time: 55 hrs 55 mins
+Total Time: 54 hrs 31 mins
 
-TypeScript   41 hrs 41 mins        ██████████████████▒░░░░░░   73.94 %
-Markdown     9 hrs 16 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.45 %
-CSS          2 hrs 25 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 %
-Text         1 hr 13 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.17 %
-JavaScript   28 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.83 %
+TypeScript   39 hrs 35 mins        ██████████████████░░░░░░░   71.78 %
+Markdown     11 hrs 27 mins        █████▒░░░░░░░░░░░░░░░░░░░   20.77 %
+CSS          1 hr 1 min            ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.86 %
+Bash         39 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.21 %
+Other        38 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.16 %
 ```
 
 <!--END_SECTION:waka-->
