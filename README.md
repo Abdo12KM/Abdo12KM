@@ -50,7 +50,7 @@ Today, I design and ship systems across authorization, databases, durable jobs, 
 | [Automart full-stack test suite](https://abdok.dev/projects/automart)     | **662 tests across 168 files** |
 | [Mitos AI-system test suite](https://abdok.dev/projects/mitos)            |  **288 tests across 66 files** |
 | [AutoCompile optimization result](https://abdok.dev/projects/autocompile) |      **+4.08% guarded OverOz** |
-| [Photography hybrid discovery](https://abdok.dev/projects/photography)    |   **170+ indexed photographs** |
+| [Photography hybrid discovery](https://abdok.dev/projects/photography)    |   **170+ curated photographs** |
 | Academic foundation                                                       |              **3.84/4.0 CGPA** |
 
 ## Selected work
@@ -108,7 +108,7 @@ A correctness-first assistant embedded in abdok.dev, designed around a strict tr
 
 - Rebuilds trusted public evidence for every request instead of trusting browser history or client-produced facts.
 - Keeps canonical project, article, photo, resume, social, and contact data server-owned while models select bounded stable keys.
-- Releases model output only after links, schema, terminal plan, and completion state pass validation.
+- Streams grounded answer text immediately; releases optional canonical resources only after links, schema, terminal plan, and completion state pass validation.
 - Adds route-aware starters, local history, inline actions, follow-up suggestions, recruiter shortcuts, a resource library, and real-model production-path evaluations.
 
 `Next.js 16` · `React 19` · `TypeScript` · `Vercel AI SDK` · `Gemini` · `Zod` · `node:test`
