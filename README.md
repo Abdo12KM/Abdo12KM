@@ -1,215 +1,224 @@
 <div align="center">
 
-# Abdelrahman Khaled
+<!-- Commas inside srcset URLs are percent-encoded so browsers do not treat them as separate image candidates. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A0f172a%2C100%3A2563eb&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=f8fafc&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=cbd5e1">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3Adbeafe%2C100%3A93c5fd&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=0f172a&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=334155">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3Adbeafe%2C100%3A93c5fd&amp;height=158&amp;section=header&amp;text=Abdelrahman%20Khaled&amp;fontSize=34&amp;fontColor=0f172a&amp;animation=fadeIn&amp;fontAlignY=30&amp;desc=Full-stack%20systems%20%7C%20Applied%20AI%20%7C%20Developer%20tools&amp;descAlignY=50&amp;descSize=15&amp;descColor=334155" alt="Abdelrahman Khaled — Full-stack systems, applied AI, and developer tools" width="100%">
+</picture>
 
-### I build systems that explain themselves.
+### Production systems that explain themselves.
 
-`Full-Stack TypeScript` · `Applied AI` · `Developer Tools` · `Research`
+**Full-stack engineering** · **Applied AI** · **Developer tooling** · **Research**
 
-[![Portfolio](https://img.shields.io/badge/abdok.dev-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
-[![Resume](https://img.shields.io/badge/Resume-2E7D32?style=for-the-badge&logo=readthedocs&logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
+[![Portfolio](https://img.shields.io/badge/Portfolio-abdok.dev-111111?style=for-the-badge&amp;logo=vercel&amp;logoColor=white)](https://abdok.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://linkedin.com/in/abdo12k)
+[![Email](https://img.shields.io/badge/Email-contact%40abdok.dev-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:contact@abdok.dev)
+[![Resume](https://img.shields.io/badge/Resume-View-2E7D32?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white)](https://drive.google.com/file/d/1qgQ2StAQjO3qxvWbqQyrGxJQuC3LiUk6/view?usp=sharing)
 
-<sub>Computer Science graduate · 3.84/4.0 CGPA · New Cairo, Egypt</sub>
+<sub>B.Sc. Computer Science · 3.84/4.0 CGPA · New Cairo, Egypt</sub>
+
+**[Selected work](#selected-work) · [Proof](#proof-in-numbers) · [Capabilities](#capabilities) · [Journey](#journey) · [Contact](#contact)**
 
 </div>
 
 ---
 
-```ts
-const abdok = {
-  builds: ["production web systems", "grounded AI", "developer tools"],
-  caresAbout: ["correctness", "clarity", "resilience", "useful products"],
-  workingStyle: "own the full path from schema to production",
-  rule: "evidence > adjectives",
-};
-```
+## About
 
 Before Computer Science, I studied medicine for four years at Kasr Al Ainy. The domain changed; the method did not: inspect the evidence, isolate the cause, test the hypothesis, and fix the underlying system rather than its most visible symptom.
 
-Today, I work across product architecture, authorization, databases, durable jobs, AI tool calling, evaluation, testing, and deployment.
+Today, I design and ship systems across authorization, databases, durable jobs, AI tool calling, evaluation, testing, and deployment. I care about interfaces that make complex behavior understandable—not merely functional.
+
+> **Operating principle:** schema → product → evidence → production
+
+**Currently open to:** full-stack, backend, product-engineering, and applied-AI opportunities.
+
+### Explore by interest
+
+- Building secure, production-grade product systems → **[Automart](https://abdok.dev/projects/automart)**
+- Turning repositories into verified execution knowledge → **[Mitos](https://abdok.dev/projects/mitos)**
+- Designing AI interfaces with explicit trust boundaries → **[Ask Abdo](https://abdok.dev/projects/ask-abdo)**
+- Researching learned compiler optimization → **[AutoCompile](https://abdok.dev/projects/autocompile)**
+- Combining search, graphics, and media systems → **[Photography](https://abdok.dev/projects/photography)**
+
+## Proof in numbers
+
+| Evidence | Result |
+| --- | ---: |
+| [Automart authorization model](https://abdok.dev/projects/automart) | **65 granular permissions** |
+| [Automart full-stack test suite](https://abdok.dev/projects/automart) | **662 tests across 168 files** |
+| [Mitos AI-system test suite](https://abdok.dev/projects/mitos) | **288 tests across 66 files** |
+| [AutoCompile optimization result](https://abdok.dev/projects/autocompile) | **+4.08% guarded OverOz** |
+| [Photography hybrid discovery](https://abdok.dev/projects/photography) | **170+ indexed photographs** |
+| Academic foundation | **3.84/4.0 CGPA** |
+
+## Selected work
+
+<details open>
+<summary><strong>🚗 Automart</strong> — dealership operations platform · public case study</summary>
+
+<br>
+
+A full-stack operations platform spanning staff, customers, vehicles, inventory, communication, reporting, and AI-assisted workflows.
+
+**[Case study](https://abdok.dev/projects/automart) · [Public site](https://automart.vercel.app) · Repository private**
+
+**What it demonstrates**
+
+- **Authorization:** 65 database-synchronized permissions, role defaults, member-level allow/deny overrides, contextual server checks, and audit logs.
+- **Reliability:** Redis caching with 250 ms racing timeouts, a 60-second circuit breaker, PostgreSQL fallback paths, and cross-instance outage coordination.
+- **Applied AI:** a streaming assistant with sandboxed tools, structured sources, permission-aware SQL reporting, and field-level redaction.
+- **Quality:** JOSE-signed sessions, PBKDF2 password hashing, AES-GCM credential encryption, strict TypeScript, and **662 passing tests across 168 files**.
+
+`Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Drizzle` · `Redis` · `AI SDK` · `Gemini` · `Vitest`
+
+</details>
+
+<details>
+<summary><strong>⚡ Mitos</strong> — repository questions → verified execution traces · live</summary>
+
+<br>
+
+An AI developer tool that converts natural-language questions about GitHub repositories into commit-pinned, shareable execution knowledge.
+
+**[Case study](https://abdok.dev/projects/mitos) · [Live product](https://mitos.abdok.dev) · Repository private**
+
+**What it demonstrates**
+
+- Builds synchronized FlowBoard and Mermaid diagrams, Monaco source views, timelines, and narrative steps.
+- Uses bounded repository exploration, evidence extraction, trace planning, structured drafting, and symbol-graph fallback.
+- Verifies paths, line ranges, snippets, graph connections, prompt coverage, and semantic quality before publishing a trace.
+- Runs through durable Inngest stages with cancellation, concurrency controls, retry-safe guards, artifact offloading, optional Redis locks, SSE progress, and **288 passing tests across 66 files**.
+
+`Next.js 16` · `ElysiaJS` · `Better Auth` · `PostgreSQL` · `Inngest` · `Monaco` · `Mermaid` · `Gemini` · `DeepSeek`
+
+</details>
+
+<details>
+<summary><strong>🦇 Ask Abdo</strong> — evidence-backed portfolio assistant · live</summary>
+
+<br>
+
+A correctness-first assistant embedded in abdok.dev, designed around a strict trust boundary rather than generic chat behavior.
+
+**[Case study](https://abdok.dev/projects/ask-abdo) · [Live product](https://abdok.dev)**
+
+**What it demonstrates**
+
+- Rebuilds trusted public evidence for every request instead of trusting browser history or client-produced facts.
+- Keeps canonical project, article, photo, resume, social, and contact data server-owned while models select bounded stable keys.
+- Releases model output only after links, schema, terminal plan, and completion state pass validation.
+- Adds route-aware starters, local history, inline actions, follow-up suggestions, recruiter shortcuts, a resource library, and real-model production-path evaluations.
+
+`Next.js 16` · `React 19` · `TypeScript` · `Vercel AI SDK` · `Gemini` · `Zod` · `node:test`
+
+</details>
+
+<details>
+<summary><strong>🧠 AutoCompile</strong> — LLVM optimization-pass prediction · research and demo</summary>
+
+<br>
+
+Graduation research on learning LLVM optimization-pass sequences from IR, targeting one-shot inference without iterative compiler feedback.
+
+**[Case study](https://abdok.dev/projects/autocompile) · [Demo](https://autocompile-demo.vercel.app/) · [GitHub](https://github.com/Abdo12KM/autocompile) · [Research paper](https://drive.google.com/file/d/1b4XttPmvhX6YfApg33042AL6i74VC7rH/view?usp=sharing)**
+
+**What it demonstrates**
+
+- Built a five-stage pipeline across **3,000 IR programs**, including size-biased collection, bounded-search supervision, fingerprint deduplication, stratified splitting, and response-only LoRA fine-tuning.
+- Compared model scale, compiler-specialized pretraining, GRPO reinforcement learning, and conditioning variants.
+- Reached **+1.15% guarded OverOz** with greedy one-shot inference and **+4.08%** with compiler-selected best-of-40 sampling, against a **+3.92% bounded-search teacher reference**.
+- Added strict parsing, `-Oz` regression guards, LLVM verification, and Alive2 translation validation.
+
+`Python` · `LLVM 19` · `PyTorch` · `Transformers` · `Unsloth` · `LoRA` · `vLLM` · `GRPO` · `Alive2`
+
+</details>
+
+<details>
+<summary><strong>📸 Photography</strong> — searchable, cinematic media archive · live</summary>
+
+<br>
+
+A full-stack photography system for publishing, discovering, curating, and animating a catalog of more than 170 photographs.
+
+**[Case study](https://abdok.dev/projects/photography) · [Live gallery](https://abdok.dev/photography)**
+
+**What it demonstrates**
+
+- Combines Vertex AI embeddings, PostgreSQL full-text search, and Gemini reranking for hybrid discovery.
+- Turns selected stills into loopable Veo cinemagraphs delivered through Cloudinary and orchestrated with Inngest.
+- Presents the collection in a React Three Fiber cylindrical gallery with optimized texture loading, GPU cache warming, focus interactions, and video playback.
+- Includes EXIF-aware uploads, secure administration, visibility controls, rate-limited engagement, and a timezone-aware daily spotlight with Redis locking.
+
+`Next.js 16` · `PostgreSQL` · `Gemini` · `Vertex AI` · `Veo` · `React Three Fiber` · `Cloudinary` · `Inngest`
+
+</details>
+
+<details>
+<summary><strong>✍️ AI Publishing</strong> — repository-aware technical writing · case study</summary>
+
+<br>
+
+A writing system built around the idea that generated technical content should remain inspectable after publication.
+
+**[Case study](https://abdok.dev/projects/ai-blog-generator) · [Published articles](https://abdok.dev/blog)**
+
+**What it demonstrates**
+
+- Coordinates Writer, Reviewer, Refiner, and Prompt Refiner agents with bounded repository-aware tool access.
+- Stores file SHAs and classifies references as verified, modified, deleted, or moved as repositories change.
+- Preserves AI images and Mermaid assets during refinement through diagram tokenization.
+- Combines Monaco editing, live Markdown preview, code-reference drawers, diff views, autosave recovery, versioning, atomic writes, Inngest jobs, and Redis-backed progress.
+
+`Next.js 16` · `TypeScript` · `AI SDK 7` · `Gemini` · `GitHub API` · `Monaco` · `Mermaid` · `Inngest` · `Redis`
+
+</details>
+
+## Capabilities
+
+The stack changes by problem; these are the tools I repeatedly use to ship and verify systems.
 
 <div align="center">
 
-[Proof](#proof-not-adjectives) · [Projects](#project-constellation) · [Engineering Palette](#engineering-palette) · [Timeline](#the-path-here)
+<!-- Keep commas encoded in srcset; raw commas break the icon list. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Ctailwind%2Cnodejs%2Cpostgres%2Credis%2Cpython%2Cpytorch%2Cdocker%2Cgit%2Cgithub&amp;perline=6&amp;theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Ctailwind%2Cnodejs%2Cpostgres%2Credis%2Cpython%2Cpytorch%2Cdocker%2Cgit%2Cgithub&amp;perline=6&amp;theme=light">
+  <img src="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Ctailwind%2Cnodejs%2Cpostgres%2Credis%2Cpython%2Cpytorch%2Cdocker%2Cgit%2Cgithub&amp;perline=6&amp;theme=light" alt="Next.js, React, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Redis, Python, PyTorch, Docker, Git, and GitHub" loading="lazy">
+</picture>
 
 </div>
 
-## Proof, not adjectives
+- **Product UI:** Next.js, React, TypeScript, Tailwind CSS, Motion, TanStack Query, Monaco, React Three Fiber
+- **Backend and data:** Node.js, ElysiaJS, PostgreSQL, Drizzle ORM, Redis, Server-Sent Events, Docker
+- **AI systems:** Vercel AI SDK, Gemini, Vertex AI, tool calling, structured generation, evaluation, RAG
+- **Research:** Python, PyTorch, Hugging Face, LLVM, LoRA, vLLM, Alive2
+- **Quality:** Vitest, Playwright, Zod, strict TypeScript, protocol validation, deterministic checks
 
-| Signal                       |                                 Evidence | Project                                               |
-| ---------------------------- | ---------------------------------------: | ----------------------------------------------------- |
-| Authorization depth          |              **65 granular permissions** | [Automart](https://abdok.dev/projects/automart)       |
-| Full-stack test suite        | **662 passing Vitest tests / 168 files** | [Automart](https://abdok.dev/projects/automart)       |
-| AI-system test suite         |  **288 passing Vitest tests / 66 files** | [Mitos](https://abdok.dev/projects/mitos)             |
-| Compiler optimization result |                **+4.08% guarded OverOz** | [AutoCompile](https://abdok.dev/projects/autocompile) |
-| Hybrid media discovery       |             **170+ indexed photographs** | [Photography](https://abdok.dev/projects/photography) |
-| Academic foundation          |                        **3.84/4.0 CGPA** | B.Sc. Computer Science                                |
+## Writing, experiments, and visual work
 
-## Project constellation
+[Technical notes](https://abdok.dev/blog) · [Project case studies](https://abdok.dev/projects) · [Photography archive](https://abdok.dev/photography) · [Ask Abdo](https://abdok.dev)
 
-| System                                                            | What it does                              | Defining engineering idea                                |
-| ----------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------- |
-| **[Automart](https://abdok.dev/projects/automart)**               | Runs dealership operations                | Hybrid authorization and resilient infrastructure        |
-| **[Mitos](https://abdok.dev/projects/mitos)**                     | Explains unfamiliar repositories          | Evidence-grounded execution tracing                      |
-| **[Ask Abdo](https://abdok.dev/projects/ask-abdo)**               | Answers questions about my work           | Server-owned evidence and validated output               |
-| **[AutoCompile](https://abdok.dev/projects/autocompile)**         | Predicts LLVM optimization passes         | One-shot pass prediction from bounded-search supervision |
-| **[Photography](https://abdok.dev/projects/photography)**         | Publishes and discovers visual work       | Semantic search and cinematic 3D presentation            |
-| **[AI Publishing](https://abdok.dev/projects/ai-blog-generator)** | Turns repositories into technical writing | Context-first generation and SHA drift detection         |
-
-<details open>
-<summary><strong>🚗 <a href="https://abdok.dev/projects/automart">Automart</a>: dealership operations under real constraints</strong></summary>
-
-<br>
-
-> A full-stack operations platform spanning staff, customers, vehicles, inventory, communication, reporting, and AI-assisted workflows.
-
-[Case study](https://abdok.dev/projects/automart) · [Public site](https://automart.vercel.app) · Repository private
-
-- **Authorization:** 65 database-synchronized permissions with role defaults, per-member allow/deny overrides, contextual server checks, and audit logs.
-- **AI:** Streaming assistant with sandboxed tools, structured sources, permission-aware SQL reporting, and field-level redaction.
-- **Reliability:** Redis caching with 250 ms racing timeouts, a 60-second circuit breaker, PostgreSQL fallback paths, and cross-instance coordination during Redis outages.
-- **Domain engineering:** Ledger-based stock adjustments, reorder alerts, a local Land Rover VIN decoder with NHTSA fallback, and bilingual AI-assisted announcements.
-- **Security and quality:** JOSE-signed JWT sessions in HttpOnly cookies, PBKDF2 password hashing with SHA-256, AES-GCM credential encryption, strict TypeScript checks, and **662 passing tests across 168 files**.
-
-`Next.js 16` `React 19` `TypeScript` `PostgreSQL` `Drizzle` `Redis` `AI SDK` `Gemini` `Vitest`
-
-</details>
-
-<details>
-<summary><strong>⚡ <a href="https://abdok.dev/projects/mitos">Mitos</a>: from repository question to verified execution trace</strong></summary>
-
-<br>
-
-> An AI developer tool that converts natural-language questions about GitHub repositories into commit-pinned, shareable execution knowledge.
-
-[Case study](https://abdok.dev/projects/mitos) · [Live](https://mitos.abdok.dev) · Repository private
-
-- Builds synchronized **FlowBoard and Mermaid diagrams**, Monaco source views, timelines, and narrative steps.
-- Uses bounded repository exploration, evidence extraction, trace planning, and structured drafting, falling back to a symbol graph when direct exploration is insufficient.
-- Verifies file paths, line ranges, snippets, graph connections, prompt coverage, and semantic quality before finalizing a trace.
-- Runs through durable Inngest stages with cancellation, concurrency control, retry-safe execution guards, artifact offloading, optional Redis locks, and SSE progress.
-- Protects repositories with installation-scoped GitHub App access, trace-scoped public access, encrypted identity/control-plane tokens, archived source access, binary rejection, and Mermaid/SVG sanitization.
-- Backed by **288 passing Vitest tests across 66 files**, plus Playwright coverage for the landing page and workspace demo.
-
-`Next.js 16` `ElysiaJS` `Better Auth` `PostgreSQL` `Inngest` `Monaco` `Mermaid` `Gemini` `DeepSeek`
-
-</details>
-
-<details>
-<summary><strong>🦇 <a href="https://abdok.dev/projects/ask-abdo">Ask Abdo</a>: a portfolio assistant with a trust boundary</strong></summary>
-
-<br>
-
-> A correctness-first assistant embedded in abdok.dev, not a generic chatbot placed beside a portfolio.
-
-[Case study](https://abdok.dev/projects/ask-abdo) · [Live](https://abdok.dev)
-
-- Rebuilds trusted public evidence for every request instead of trusting browser history or client-produced facts.
-- Lets the model select bounded stable keys while the server owns canonical project, article, photo, resume, social, and contact data.
-- Buffers complete model attempts and releases them only after links, schema, terminal plan, and completion state pass validation.
-- Rehydrates saved resources from fresh public data rather than preserving stale snapshots.
-- Includes the **Batwick** interface with route-aware starters, local history, inline actions, follow-up suggestions, recruiter shortcuts, and a conversation-level resource library.
-- Runs real-model production-path evaluations with prompt traces, provenance hashes, protocol invariants, and catalog-coverage checks.
-
-`Next.js 16` `React 19` `TypeScript` `Vercel AI SDK` `Gemini` `Zod` `node:test`
-
-</details>
-
-<details>
-<summary><strong>🧠 <a href="https://abdok.dev/projects/autocompile">AutoCompile</a>: can an LLM learn a compiler optimizer?</strong></summary>
-
-<br>
-
-> Graduation research on learning LLVM optimization pass sequences from IR, targeting one-shot inference without iterative compiler feedback.
-
-[Case study](https://abdok.dev/projects/autocompile) · [Demo](https://autocompile-demo.vercel.app/) · [GitHub](https://github.com/Abdo12KM/autocompile) · [Research paper](https://drive.google.com/file/d/1b4XttPmvhX6YfApg33042AL6i74VC7rH/view?usp=sharing)
-
-- Built a five-stage pipeline covering size-biased collection, bounded-search supervision, exact-IR fingerprint deduplication, stratified splitting, and response-only LoRA fine-tuning across **3,000 IR programs**.
-- Compared model scale, compiler-specialized pretraining, GRPO reinforcement learning, and conditioning variants.
-- Used held-out evaluation with **zero cross-split exact-IR fingerprint overlap**.
-- Reached **+1.15% guarded OverOz** with greedy one-shot inference and **+4.08%** with compiler-selected best-of-40 sampling, against a **+3.92% bounded-search teacher reference**.
-- Found that strong candidate sequences existed in the learned distribution, while deterministic decoding repeatedly collapsed to a small template set.
-- Added strict parsing, `-Oz` regression guards, LLVM verification, and Alive2 translation validation.
-
-`Python` `LLVM 19` `PyTorch` `Transformers` `Unsloth` `LoRA` `vLLM` `GRPO` `Alive2`
-
-</details>
-
-<details>
-<summary><strong>📸 <a href="https://abdok.dev/projects/photography">Photography</a>: an archive that can search, move, and remember</strong></summary>
-
-<br>
-
-> A full-stack photography system for publishing, discovering, curating, and animating a personal catalog of 170+ photographs.
-
-[Case study](https://abdok.dev/projects/photography) · [Live gallery](https://abdok.dev/photography)
-
-- Combines Vertex AI embeddings, PostgreSQL full-text search, and Gemini reranking for hybrid discovery.
-- Uses Gemini for titles, descriptions, tags, and metadata enrichment.
-- Turns selected stills into loopable Veo cinemagraphs delivered through Cloudinary and orchestrated with Inngest.
-- Presents the collection in a React Three Fiber cylindrical gallery with optimized texture loading, GPU cache warming, focus interactions, and video playback.
-- Runs a timezone-aware daily spotlight with fair rotation, AI-generated themes, overrides, and Redis distributed locking.
-- Includes EXIF-aware uploads, secure administration, visibility controls, loves, views, and rate-limited anonymous engagement.
-
-`Next.js 16` `PostgreSQL` `Gemini` `Vertex AI` `Veo` `React Three Fiber` `Cloudinary` `Inngest`
-
-</details>
-
-<details>
-<summary><strong>✍️ <a href="https://abdok.dev/projects/ai-blog-generator">AI Publishing</a>: technical writing that stays attached to the code</strong></summary>
-
-<br>
-
-> A repository-aware writing system built around the idea that generated technical content should remain inspectable after publication.
-
-[Case study](https://abdok.dev/projects/ai-blog-generator) · [Published articles](https://abdok.dev/blog)
-
-- Coordinates Writer, Reviewer, Refiner, and Prompt Refiner agents with repository-aware tool access.
-- Loads the repository tree and selected source files before generation, then allows bounded retrieval of additional files.
-- Stores file SHAs and classifies references as verified, modified, deleted, or moved when the repository changes.
-- Preserves AI-image and Mermaid assets during refinement through diagram tokenization.
-- Pairs Monaco editing, live Markdown preview, code-reference drawers, diff views, autosave recovery, and visibility controls.
-- Supports version pinning and pruning, atomic writes, Inngest jobs, Redis-backed progress, and double-opt-in notifications.
-
-`Next.js 16` `TypeScript` `AI SDK 7` `Gemini` `GitHub API` `Monaco` `Mermaid` `Inngest` `Redis`
-
-</details>
-
-## Engineering palette
-
-| Layer                | Tools I reach for                                                                                  |
-| -------------------- | -------------------------------------------------------------------------------------------------- |
-| **Product UI**       | Next.js · React · TypeScript · Tailwind CSS · Motion · TanStack Query · Monaco · React Three Fiber |
-| **Backend and data** | Node.js · ElysiaJS · PostgreSQL · Drizzle ORM · Redis · Server-Sent Events · Docker                |
-| **AI systems**       | Vercel AI SDK · Gemini · Vertex AI · tool calling · structured generation · evaluation · RAG       |
-| **Research**         | Python · PyTorch · Hugging Face · LLVM · LoRA · vLLM · Alive2                                      |
-| **Quality**          | Vitest · Playwright · Zod · strict TypeScript · protocol validation · deterministic checks         |
-
-## The path here
+## Journey
 
 ```text
 2018  Medicine at Kasr Al Ainy
-  |
-2022  Transition to Computer Science
-  |
-2023  ECPC: 35th / 183 teams
-  |
-2025  SolveTHE17: 2nd / 400+ participants
-  |     GDG AI Finance Hackathon: 5th / 100 teams
-  |     RoboCup@Home: 3rd place
-  |
-2026  B.Sc. Computer Science: 3.84/4.0 CGPA
-       RoboCup@Home: back-to-back 3rd place
+  │
+2022  Transitioned to Computer Science
+  │
+2023  ECPC — 35th of 183 teams
+  │
+2025  SolveTHE17 — 2nd of 400+ participants
+  │     GDG AI Finance Hackathon — 5th of 100 teams
+  │     RoboCup@Home — 3rd place
+  │
+2026  B.Sc. Computer Science — 3.84/4.0 CGPA
+       RoboCup@Home — back-to-back 3rd place
        AutoCompile research completed
 ```
 
-<!-- ## Development signal
-
-<div align="center">
-  <img height="180em" src="https://abdo-readme.vercel.app/api?username=abdo12km&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Abdelrahman's GitHub statistics">
-</div> -->
+## Recent coding activity
 
 <!--START_SECTION:waka-->
 
@@ -227,15 +236,44 @@ Other        38 mins               ▒░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
----
+## GitHub activity
 
 <div align="center">
 
-### Let’s build something difficult, and make it understandable.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://abdo-readme.vercel.app/api?username=abdo12km&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000">
+  <source media="(prefers-color-scheme: light)" srcset="https://abdo-readme.vercel.app/api?username=abdo12km&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000">
+  <img src="https://abdo-readme.vercel.app/api?username=abdo12km&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000" alt="Abdo12KM GitHub statistics" width="495" loading="lazy">
+</picture>
 
-[![Explore my work](https://img.shields.io/badge/Explore_my_work-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://abdok.dev/projects)
-[![Connect](https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdo12k)
-[![Start a conversation](https://img.shields.io/badge/Start_a_conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@abdok.dev)
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Abdo12KM&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=00000000">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Abdo12KM&amp;theme=default&amp;hide_border=true&amp;background=00000000">
+  <img src="https://streak-stats.demolab.com?user=Abdo12KM&amp;theme=default&amp;hide_border=true&amp;background=00000000" alt="Abdo12KM contribution streak" width="495" loading="lazy">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Abdo12KM&amp;bg_color=0d1117&amp;color=c9d1d9&amp;line=58a6ff&amp;point=79c0ff&amp;area_color=58a6ff&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20activity">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Abdo12KM&amp;bg_color=ffffff&amp;color=24292f&amp;line=0969da&amp;point=54aeff&amp;area_color=0969da&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20activity">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdo12KM&amp;bg_color=ffffff&amp;color=24292f&amp;line=0969da&amp;point=54aeff&amp;area_color=0969da&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20activity" alt="Abdo12KM contribution activity graph" width="100%" loading="lazy">
+</picture>
+
+</div>
+
+---
+
+## Contact
+
+<div align="center">
+
+### Let’s build something difficult — and make it understandable.
+
+[![Explore my work](https://img.shields.io/badge/Explore_my_work-abdok.dev-111111?style=for-the-badge&amp;logo=vercel&amp;logoColor=white)](https://abdok.dev/projects)
+[![Start a conversation](https://img.shields.io/badge/Start_a_conversation-Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:contact@abdok.dev)
 
 <sub>Open to full-stack, backend, product-engineering, and applied-AI opportunities.</sub>
 
