@@ -38,7 +38,7 @@ Today, I design and ship systems across authorization, databases, durable jobs, 
 
 - Building secure, production-grade product systems → **[Automart](https://abdok.dev/projects/automart)**
 - Turning repositories into verified execution knowledge → **[Mitos](https://abdok.dev/projects/mitos)**
-- Designing AI interfaces with explicit trust boundaries → **[Ask Abdo](https://abdok.dev/projects/ask-abdo)**
+- Designing grounded AI interfaces with explicit trust boundaries → **[Ask Abdo](https://abdok.dev/projects/ask-abdo)**
 - Researching learned compiler optimization → **[AutoCompile](https://abdok.dev/projects/autocompile)**
 - Combining search, graphics, and media systems → **[Photography](https://abdok.dev/projects/photography)**
 
@@ -49,6 +49,8 @@ Today, I design and ship systems across authorization, databases, durable jobs, 
 | [Automart authorization model](https://abdok.dev/projects/automart)       |    **65 granular permissions** |
 | [Automart full-stack test suite](https://abdok.dev/projects/automart)     | **662 tests across 168 files** |
 | [Mitos AI-system test suite](https://abdok.dev/projects/mitos)            |  **288 tests across 66 files** |
+| [Ask Abdo deterministic suite](https://abdok.dev/projects/ask-abdo)       |                  **245 tests** |
+| [Photography search/API suite](https://abdok.dev/projects/photography)    |           **50 focused tests** |
 | [AutoCompile optimization result](https://abdok.dev/projects/autocompile) |      **+4.08% guarded OverOz** |
 | [Photography hybrid discovery](https://abdok.dev/projects/photography)    |   **170+ curated photographs** |
 | Academic foundation                                                       |              **3.84/4.0 CGPA** |
@@ -71,7 +73,7 @@ A full-stack operations platform spanning staff, customers, vehicles, inventory,
 - **Applied AI:** a streaming assistant with sandboxed tools, structured sources, permission-aware SQL reporting, and field-level redaction.
 - **Quality:** JOSE-signed sessions, PBKDF2 password hashing, AES-GCM credential encryption, strict TypeScript, and **662 passing tests across 168 files**.
 
-`Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Drizzle` · `Redis` · `AI SDK` · `Gemini` · `Vitest`
+`Next.js` · `React` · `TypeScript` · `PostgreSQL` · `Drizzle` · `Redis` · `AI SDK` · `Gemini` · `Vitest`
 
 </details>
 
@@ -89,29 +91,30 @@ An AI developer tool that converts natural-language questions about GitHub repos
 - Builds synchronized FlowBoard and Mermaid diagrams, Monaco source views, timelines, and narrative steps.
 - Uses bounded repository exploration, evidence extraction, trace planning, structured drafting, and symbol-graph fallback.
 - Verifies paths, line ranges, snippets, graph connections, prompt coverage, and semantic quality before publishing a trace.
-- Runs through durable Inngest stages with cancellation, concurrency controls, retry-safe guards, artifact offloading, optional Redis locks, SSE progress, and **288 passing tests across 66 files**.
+- Runs through durable Inngest stages with cancellation, concurrency controls, attempt-scoped retry guards, artifact offloading, optional Redis locks, SSE progress, and **288 passing tests across 66 files**.
 
-`Next.js 16` · `ElysiaJS` · `Better Auth` · `PostgreSQL` · `Inngest` · `Monaco` · `Mermaid` · `Gemini` · `DeepSeek`
+`Next.js` · `ElysiaJS` · `Better Auth` · `PostgreSQL` · `Inngest` · `Monaco` · `Mermaid` · `Gemini` · `DeepSeek`
 
 </details>
 
 <details>
-<summary><strong>🦇 Ask Abdo</strong>: evidence-backed portfolio assistant · live</summary>
+<summary><strong>🦇 Ask Abdo</strong>: grounded portfolio guide with trusted resources · live</summary>
 
 <br>
 
-A correctness-first assistant embedded in abdok.dev, designed around a strict trust boundary rather than generic chat behavior.
+A public AI guide embedded in abdok.dev that helps visitors understand projects, discover articles and photography, and open trusted professional links.
 
 **[Case study](https://abdok.dev/projects/ask-abdo) · [Live product](https://abdok.dev)**
 
 **What it demonstrates**
 
-- Rebuilds trusted public evidence for every request instead of trusting browser history or client-produced facts.
-- Keeps canonical project, article, photo, resume, social, and contact data server-owned while models select bounded stable keys.
-- Streams grounded answer text immediately; releases optional canonical resources only after links, schema, terminal plan, and completion state pass validation.
-- Adds route-aware starters, local history, inline actions, follow-up suggestions, recruiter shortcuts, a resource library, and real-model production-path evaluations.
+- Checks every request against current public portfolio data instead of trusting browser history, saved tool output, or model-supplied facts.
+- Lets the model select bounded project, article, photo, and profile keys while the server supplies canonical titles, links, images, and availability.
+- Streams grounded answers immediately, then appends trusted resource cards after schema, link, and completion-state validation.
+- Supports exact photo ID/title lookup, bounded tag and location filters, and filter-only retrieval without unnecessary model calls.
+- Adds immutable message editing, confirmed descendant truncation, cross-tab stale-output protection, local history, inline resource actions, follow-up suggestions, recruiter shortcuts, and real-model production-path evaluations.
 
-`Next.js 16` · `React 19` · `TypeScript` · `Vercel AI SDK` · `Gemini` · `Zod` · `node:test`
+`Next.js` · `React` · `TypeScript` · `Vercel AI SDK` · `Gemini` · `Zod` · `Redis` · `node:test`
 
 </details>
 
@@ -131,12 +134,12 @@ Graduation research on learning LLVM optimization-pass sequences from IR, target
 - Reached **+1.15% guarded OverOz** with greedy one-shot inference and **+4.08%** with compiler-selected best-of-40 sampling, against a **+3.92% bounded-search teacher reference**.
 - Added strict parsing, `-Oz` regression guards, LLVM verification, and Alive2 translation validation.
 
-`Python` · `LLVM 19` · `PyTorch` · `Transformers` · `Unsloth` · `LoRA` · `vLLM` · `GRPO` · `Alive2`
+`Python` · `LLVM` · `PyTorch` · `Transformers` · `Unsloth` · `LoRA` · `vLLM` · `GRPO` · `Alive2`
 
 </details>
 
 <details>
-<summary><strong>📸 Photography</strong>: searchable, cinematic media archive · live</summary>
+<summary><strong>📸 Photography</strong>: searchable gallery with Veo cinemagraphs and 3D browsing · live</summary>
 
 <br>
 
@@ -146,12 +149,12 @@ A full-stack photography system for publishing, discovering, curating, and anima
 
 **What it demonstrates**
 
-- Combines Vertex AI embeddings, PostgreSQL full-text search, and Gemini reranking for hybrid discovery.
-- Turns selected stills into loopable Veo cinemagraphs delivered through Cloudinary and orchestrated with Inngest.
-- Presents the collection in a React Three Fiber cylindrical gallery with optimized texture loading, GPU cache warming, focus interactions, and video playback.
-- Includes EXIF-aware uploads, secure administration, visibility controls, rate-limited engagement, and a timezone-aware daily spotlight with Redis locking.
+- Combines exact tag and location filtering with Vertex AI embeddings, PostgreSQL full-text search, and Gemini reranking; the gallery and Ask Abdo share the same visibility-aware query rules.
+- Turns selected stills into loopable Veo cinemagraphs delivered through Cloudinary and orchestrated through durable Inngest jobs.
+- Presents the catalog in a cylindrical React Three Fiber gallery with concurrency-limited texture loading, GPU cache warming, focus interactions, and video playback.
+- Includes EXIF-aware uploads, secure administration, visibility controls, rate-limited engagement, and a timezone-aware daily spotlight protected by Redis distributed locking.
 
-`Next.js 16` · `PostgreSQL` · `Gemini` · `Vertex AI` · `Veo` · `React Three Fiber` · `Cloudinary` · `Inngest`
+`Next.js` · `PostgreSQL` · `Gemini` · `Vertex AI` · `Veo` · `React Three Fiber` · `Cloudinary` · `Inngest`
 
 </details>
 
@@ -171,7 +174,7 @@ A writing system built around the idea that generated technical content should r
 - Preserves AI images and Mermaid assets during refinement through diagram tokenization.
 - Combines Monaco editing, live Markdown preview, code-reference drawers, diff views, autosave recovery, versioning, atomic writes, Inngest jobs, and Redis-backed progress.
 
-`Next.js 16` · `TypeScript` · `AI SDK 7` · `Gemini` · `GitHub API` · `Monaco` · `Mermaid` · `Inngest` · `Redis`
+`Next.js` · `TypeScript` · `AI SDK` · `Gemini` · `GitHub API` · `Monaco` · `Mermaid` · `Inngest` · `Redis`
 
 </details>
 
@@ -223,15 +226,15 @@ The stack changes by problem; these are the tools I repeatedly use to ship and v
 <!--START_SECTION:waka-->
 
 ```txt
-From: 19 July 2026 - To: 26 July 2026
+From: 09 July 2026 - To: 16 July 2026
 
-Total Time: 39 hrs 5 mins
+Total Time: 54 hrs 31 mins
 
-TypeScript   24 hrs 30 mins        ███████████████▓░░░░░░░░░   62.54 %
-Markdown     11 hrs 9 mins         ███████░░░░░░░░░░░░░░░░░░   28.48 %
-JSON         1 hr 21 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.48 %
-Text         46 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.98 %
-JavaScript   43 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.84 %
+TypeScript   39 hrs 35 mins        ██████████████████░░░░░░░   71.78 %
+Markdown     11 hrs 27 mins        █████▒░░░░░░░░░░░░░░░░░░░   20.77 %
+CSS          1 hr 1 min            ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.86 %
+Bash         39 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.21 %
+Other        38 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.16 %
 ```
 
 <!--END_SECTION:waka-->
@@ -244,14 +247,6 @@ JavaScript   43 mins               ▒░░░░░░░░░░░░░░
   <source media="(prefers-color-scheme: dark)" srcset="https://abdo-readme.vercel.app/api?username=abdo12km&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000">
   <source media="(prefers-color-scheme: light)" srcset="https://abdo-readme.vercel.app/api?username=abdo12km&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000">
   <img src="https://abdo-readme.vercel.app/api?username=abdo12km&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000" alt="Abdo12KM GitHub statistics" width="495" loading="lazy">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Abdo12KM&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=00000000">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Abdo12KM&amp;theme=default&amp;hide_border=true&amp;background=00000000">
-  <img src="https://streak-stats.demolab.com?user=Abdo12KM&amp;theme=default&amp;hide_border=true&amp;background=00000000" alt="Abdo12KM contribution streak" width="495" loading="lazy">
 </picture>
 
 <br>
