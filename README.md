@@ -226,15 +226,15 @@ The stack changes by problem; these are the tools I repeatedly use to ship and v
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 August 2026 - To: 12 August 2026
+From: 06 August 2026 - To: 13 August 2026
 
-Total Time: 44 hrs 28 mins
+Total Time: 40 hrs 7 mins
 
-TypeScript    29 hrs 49 mins        ████████████████░░░░░░░░░   64.46 %
-Markdown      8 hrs 47 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.01 %
-CSS           2 hrs 30 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.44 %
-Other         1 hr 48 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.89 %
-JSON          1 hr 15 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.72 %
+TypeScript    22 hrs 19 mins        █████████████░░░░░░░░░░░░   52.04 %
+Markdown      11 hrs 29 mins        ██████▓░░░░░░░░░░░░░░░░░░   26.79 %
+Other         2 hrs 45 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 %
+CSS           2 hrs 30 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.85 %
+JSON          1 hr 24 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.28 %
 ```
 
 <!--END_SECTION:waka-->
